@@ -1,0 +1,484 @@
+/* Default Settings */
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: o;
+    padding-top: 70px;
+    letter-spacing: -0.7px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a {
+    display: inline-block;
+}
+a, a:hover {
+    text-decoration: none;
+}
+/* End Default Settings */
+
+/* Navbar */
+.navbar {
+    top: 0px;
+    width: 100%;
+    z-index: 100;
+    position: fixed;
+    overflow: hidden;
+    background-color: #fff;
+    padding: 5px 175px 5px 120px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+li {
+    float: left;
+    position: relative;
+}
+header > nav > .navbar-brand {
+    font-size: 25px;
+    font-weight: 350;
+    color: #635f5f;
+    line-height: 55px;
+}
+header > nav > .navbar-brand:hover {
+    color: #494646;
+}
+header nav ul li a {
+    padding: 10px;
+    font-size: 13px;
+    color: #403d3d;
+}
+header ul li a:hover {
+    color: #5234f9;
+}
+.fa-angle-down {
+    right: 0;
+    top: 13px;
+    color: gray;
+    font-size: 13px;
+    position: absolute;
+}
+.dropDown-menu {
+    top:100%;
+    left: 9px;
+    display: none;
+    width: 100%;
+    position: absolute;
+    padding: 9px 25px 9px 17px;
+    background-color: #ecebeb;
+}
+.dropDown-menu li a {
+    color: gray;
+    padding-bottom: 2rem;
+}
+.dropDown-menu li {
+    padding-bottom: 0.9rem;
+}
+.dropDown-menu ul {
+    border: 1px solid #ddd;
+}
+#drop:hover .dropDown-menu {
+    display: block;
+}
+.dropDown-menu2 {
+    top: -1px;
+    left: 100%;
+    display: none;
+    position: absolute;
+}
+#drop2:hover .dropDown-menu2 {
+    display: block;
+}
+.fa-search {
+    font-size: 14px;
+    color: #3d55c0;
+    padding: 12px 0 0 55px;
+}
+/* End Navbar */
+
+/* Content */
+/* Change Everything Section */
+#change-everything, #change-everything pre, .read-more:hover, .btn, .see-it, 
+.see-it:hover, #change-everything .download-now {
+    color: #fff;
+}
+#change-everything {
+    width: 100%;
+    z-index: 10;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    background-image: url('../images/changeImage.webp');
+}
+#change-everything pre {
+    font-size: 3rem;
+    font-weight: 300;
+    padding-top: 33vh;
+    margin: 0 0 -5vw -31vw;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+.btn {
+    border-radius: 0;
+}
+.read-more {
+    margin-right: 3px;
+    padding: 0.9rem 3.9rem;
+    background-color: #745cf9;
+}
+.btn:hover {
+    background-color: #5d47d7;
+}
+#change-everything .download-now {
+    padding: 0.8rem 2.7rem;
+    border: 2px solid #fff;
+    background-color: transparent;
+}
+#change-everything .download-now:hover {
+    color: black;
+    background-color: #fff;
+}
+/* End Change Everything Section */
+
+/* SEO Friendly Section */
+#seo-friendly {
+   padding: 95px 0 95px 110px;
+}
+#macbook-img {
+    width: 50%;
+    height: auto;
+}
+#seo-friendly-right-content {
+    width: 50%;
+    float: right;
+    padding: 5vw 0 0 9vw;
+}
+h3 {
+  font-size: 31px;
+  font-weight: 450;
+}
+#seo-friendly #seo-paragraph {
+    width: 85%;
+    color: #8c979e;
+    margin-top: 1.5rem;
+}
+#seo-friendly a {
+    display: inline-block;
+    margin-top: 1rem;
+}
+/* End SEO Friendly Section */
+
+/* Portfolio Section */
+#portfolio-section {
+    overflow: hidden;
+    padding: 49px 0 49px 100px;
+    background-color: #f5f5f5;
+}
+#portfolio-section h3 {
+    margin-bottom: 25px;
+}
+#portfolio-left-content {
+    top: 9vw;
+    left: 13px;
+    width: 44%;
+    position: relative;
+}
+#portfolio-paragraph {
+    width: 70%;
+    color: #8c979e;
+}
+.see-it {
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 17px;
+    padding: 1rem 3rem;
+    display: inline-block;
+    background-color: #745cf9;
+}
+#portfolio-right-content img {
+    width: 53%;
+    float: right;
+    margin: -14vw 75px 0 0;
+}
+#portfolio-right-content img:hover, #macbook-img:hover {
+    transform: scale(1.1);
+    transition: transform 1s ease-in-out;
+}
+/* End Portfolio Section */
+
+/* Small Parallax Section */
+#small-parallax-section {
+    color: #fff;
+    text-align: center;
+    padding: 4rem 0 9rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url('../images/small-parallax.jpg');
+}
+#small-parallax-section h1 {
+    font-size: 4rem;
+    font-weight: 300;
+    margin-bottom: 19px;
+}
+#small-parallax-section a {
+    font-size: 13px;
+    margin-top: 17px;
+    font-weight: 500;
+}
+/* End Small Parallax Section */
+/* Limitless Optins Section */
+#limitless-options-sections {
+    padding-top: 6rem;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+.download-btn {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 7px 0 15px;
+    padding: 0.9rem 2.5rem;
+    background-color: #745cf9;
+}
+.download-btn:hover {
+    color: #fff;
+    background-color: #5234f9;
+}
+#limitless-options-sections h3 {
+    font-size: 2.1rem;
+    font-weight: 350;
+}
+#limitless-options-sections p {
+    margin: 1rem 0;
+    color: #8c979e;
+}
+#limitless-options-sections img {
+    width: 87%;
+}
+/* End Limitless Optins Section */
+
+/* Latest Projects Section */
+#our-latest-projects {
+    color: #fff;
+    overflow: hidden;
+    padding-top: 6rem;
+    background-color: #0e1015;
+}
+#our-latest-projects-heading {
+    text-align: center;
+}
+#our-latest-projects-heading p {
+    margin: 2rem 0 3rem;
+}
+
+.project {
+    width: 25%;
+    float: left;
+    height: 240px;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+.project:nth-child(5), .project:nth-child(6) {
+    margin-top: -4.3px;
+}
+.project:nth-child(7), .project:nth-child(8) {
+    margin-top: -0.2px;
+}
+.project:nth-child(9), .project:nth-child(10) {
+    margin-top: -4px;
+}
+.project:nth-child(10) {
+    margin-top: -8px;
+}
+.project .caption {
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    height: 240px;
+    color: white;
+    padding: 40px 10px;
+    position: absolute;
+    background-color: #000;
+    -webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    -ms-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+}
+.projects-img {
+    width: 100%;
+    height: auto;
+}
+.project:hover .caption {
+    opacity: 0.6;
+}
+
+.caption .text {
+    font-size: 1.5rem;
+    font-weight: 500;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+    transform: translateY(290px); 
+    -webkit-transform: translateY(290px);
+}
+.caption .title {
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+
+.caption:hover .title,
+.caption:focus .title {
+    opacity: 1;
+    transform: translateY(70px);
+    -webkit-transform: translateY(70px);
+}
+/* End Latest Projects Section */
+
+/* What Are Clients Say Slider */
+/* Swiper1 */
+.swiper-container {
+    width: 100%;
+    height: 70vh;
+    text-align: center;
+}
+.s1 {
+    color: #fff;
+    padding: 4rem;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url('../images/slider1image.jpg');
+}
+.swiper-slide {
+    display: flex;
+    font-size: 18px;
+    text-align: center;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    -ms-flex-pack: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.s1 .jhon-paragraph, .s1 .aigars-paragraph {
+    width: 61%;
+    font-size: 15px;
+    margin-top: -11px;
+}
+.swiper-slide .customer-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0.5rem 0 1rem;
+} 
+.swiper-button-next {
+    right: 13rem;
+}
+.swiper-button-prev {
+    left: 13rem;
+}
+.swiper-button-next, .swiper-button-prev {
+    top: 60%;
+    width: 13px;
+    height: 15px;
+    background-size: 13px 15px;
+}
+/* End What Are Clients Say Slider */
+/* Our Main Clients */
+.s2 {
+    padding: 3rem 5rem 0;
+    height: 50vh;
+}
+.s2 h3 {
+    padding-top: 2rem;
+    margin-bottom: -0.5rem;
+}
+.s2 img {
+    width: 60px;
+    opacity: 0.5;
+}
+.s2 .swiper-slide:hover img {
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+}
+/* End Our Main Clients */
+/* Do You Like This Awesome Section */
+#do-you-like-section {
+    overflow: hidden;
+    font-weight: 600;
+    padding: 7rem 13rem 4rem;
+    background-color: #f5f5f5;
+}
+#do-you-like-section a {
+    float: right;
+    padding: 1rem 5rem;
+    margin: -3rem -7rem 0 0;
+}
+/* End Do You Like This Awesome Section */
+/* Footer */
+footer, footer a {
+    color: #fff;
+}
+footer {
+    overflow: hidden;
+    position: relative;
+    background-color: #0e1015;
+    padding: 5rem 6rem 5rem 9rem;
+}
+#footer-social-media {
+    float: right;
+}
+#footer-social-media a {
+    font-size: 19px;
+    padding: 0 0.5rem;
+}
+#footer-left-content {
+    font-size: 15px;
+}
+#footer-left-content a {
+    opacity: .8;
+    color: #fefefe;
+    font-weight: 700;
+}
+#footer-left-content a:hover, #footer-social-media a:hover {
+    color: #745cf9;
+}
+#footer-social-media a:hover {
+    font-size: 18px;
+    transition: all 0.5s;
+}
+footer > a {
+    top: 8rem;
+    right: 1rem;
+    opacity: .5;
+    position: absolute;
+    padding: 0.2rem 0.7rem;
+    border: 2px solid #fff;
+}
+footer > a:hover, footer > a > i:hover {
+    opacity: 1;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+}
+/* End Footer */
+/* End Content */
+
+
+
